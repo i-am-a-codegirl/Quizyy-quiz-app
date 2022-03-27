@@ -9,12 +9,8 @@ body{
     background-image: url("../images/blue-copy-space-digital-background_23-2148821698.webp");
     background-repeat: no-repeat;
     background-size: cover;
-   
-box-sizing: border-box;
-margin: 0px;
-padding: 0px;
-/* background-color: #e056fd;
-background-image: linear-gradient(315deg, #e056fd 0%, #000000 74%); */
+    box-sizing: border-box;
+    margin: 0px;
 }
 
 
@@ -46,8 +42,6 @@ nav{
     width: 100vw;
     height: 16vw;
     grid-area: nav;
-    
-
 }
 
 nav h2{
@@ -59,7 +53,7 @@ nav h2{
 }
 
 .imp-text{
-    font-family: 'Inter', sans-serif;
+font-family: 'Inter', sans-serif;
 font-family: 'Mukta', sans-serif;
 font-family: 'Palette Mosaic', cursive;
 font-family: 'Redressed', cursive;
@@ -75,8 +69,8 @@ font-family: 'Shizuru', cursive;
 
 
 nav ul{
-    margin-left: auto; 
-    display: flex;
+  margin-left: auto; 
+  display: flex;
   gap: 15px;
   position: relative;
   top: 4rem;
@@ -90,9 +84,9 @@ li{
     padding: 0.5rem;
     font-weight: bold;
     font-size: 1.6rem;
-    text-shadow: 2px 0px black;
-   
+    text-shadow: 2px 0px black;   
 }
+
 li a{
     text-decoration: none;
     color: var(--primary-color);
@@ -102,16 +96,13 @@ li a{
 a:hover{
     color: var(--hover-color);
     border-bottom: 1px solid var(--hover-color);
-  
-}
+  }
 
 
 main{
     display: flex;
     flex-direction: column;
-
     padding: 1.2rem 3.2rem;
-  
     margin-left: 1rem;
     margin-right: 1rem;
     grid-area: main;
@@ -121,8 +112,8 @@ main{
 
 
 main h3{
-text-align: center;
-
+ text-align: center;
+ 
 }
 
 .punch-line{
@@ -135,9 +126,7 @@ text-align: center;
     margin-left: 16rem;
     background-color: rgb(0, 0, 255,0.5);
     border-radius: 0.8rem;
-    box-shadow: 1px 2px var(--primary-color);
-   
- 
+    box-shadow: 1px 2px var(--primary-color); 
 }
 
 .direction{
@@ -147,8 +136,6 @@ text-align: center;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  
-
 }
 
 .right{
@@ -156,17 +143,17 @@ text-align: center;
    font-size: 1.6rem;
    font-weight: 600;
    letter-spacing: 0.24rem;
-    color: var(--hover-color);
-    text-shadow: 0px 1px var(--primary-color);
+   color: var(--hover-color);
+   text-shadow: 0px 1px var(--primary-color);
 }
 
 .left{
-    font-size: 1.6rem;
+   font-size: 1.6rem;
    font-weight: 600;
    letter-spacing: 0.24rem;
-    color: var(--hover-color);
-    text-shadow: 0px 1px var(--primary-color);
-    float: left;
+   color: var(--hover-color);
+   text-shadow: 0px 1px var(--primary-color);
+   float: left;
 }
 
 .question-ans{
