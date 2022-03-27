@@ -13,8 +13,6 @@ body{
 box-sizing: border-box;
 margin: 0px;
 padding: 0px;
-/* background-color: #e056fd;
-background-image: linear-gradient(315deg, #e056fd 0%, #000000 74%); */
 }
 
 
@@ -49,20 +47,18 @@ nav{
     width: 100vw;
     height: 16vw;
     grid-area: nav;
-    
 
 }
 
 nav h2{
     position: relative;
-  
     font-size: 4rem;
     line-height: 1.2rem;
     letter-spacing: 0.125rem;
 }
 
 .imp-text{
-    font-family: 'Inter', sans-serif;
+ font-family: 'Inter', sans-serif;
 font-family: 'Mukta', sans-serif;
 font-family: 'Palette Mosaic', cursive;
 font-family: 'Redressed', cursive;
@@ -78,8 +74,8 @@ font-family: 'Shizuru', cursive;
 
 
 nav ul{
-    margin-left: auto; 
-    display: flex;
+  margin-left: auto; 
+  display: flex;
   gap: 15px;
   position: relative;
   top: 4rem;
@@ -143,7 +139,6 @@ hr{
 .play-by-category{
     display: flex;
     flex-direction: column;
-
     grid-area: category;
     font-size: 1.6rem;
     padding: 0;
@@ -174,9 +169,9 @@ hr{
 
 
   .card {
-      color: var(--off-white);
-      background-color: #2a2a72;
-      background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); 
+    color: var(--off-white);
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); 
     box-shadow: 1px 1px 1px var(--off-white);
     width: 22rem;
     border-radius: 1rem;
@@ -192,7 +187,7 @@ hr{
   }
 
   .card-img{
-      width: 20rem;
+    width: 20rem;
     height: 10rem;
   }
   .card-actions {
