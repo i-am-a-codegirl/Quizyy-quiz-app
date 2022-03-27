@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:wght@300&family=Satisfy&family=Shizuru&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Mukta:wght@300&family=Palette+Mosaic&family=Prompt:wght@300&family=Redressed&family=Roboto:wght@300&family=Satisfy&family=Shizuru&display=swap');
+
+body{
+  
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    background-image: url("../images/blue-copy-space-digital-background_23-2148821698.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+* {
+--primary-color: #ecfeff ;
+--secondary-color : #67e8f9;
+--hover-color: #e056fd ;
+--black: black;
+
+}
+
+.container{
+    color: var(--primary-color);
+    width: 100vw;
+    text-decoration: none;
+    display: grid;
+    font-weight: 400;
+    grid-template-rows: 200px 200px 200px; 
+ 
+    grid-template-areas: 
+    "nav nav nav"
+    ".. main .. "
+    ".. main  .. "
+    ".. main .."
+    " footer footer footer";
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    width: 100vw;
+    height: 16vw;
+    grid-area: nav;
+    
+}
+
+nav h2{
+    position: relative;
+    font-size: 4rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.125rem;
+}
+
+.imp-text{
+ font-family: 'Inter', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Redressed', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Shizuru', cursive;
+}
+
+.current-pg{
+    color: var(--secondary-color);
+}
+
+
+
+nav ul{
+  margin-left: auto; 
+  display: flex;
+  gap: 15px;
+  position: relative;
+  top: 4rem;
+  padding-inline-end: 0.7rem;
+ 
+}
+
+nav li{
+    list-style: none;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-shadow: 2px 0px black;
+   
+}
+li a{
+    text-decoration: none;
+    color: var(--primary-color);   
+}
+
+a:hover{
+    color: var(--hover-color);
+    border-bottom: 1px solid var(--hover-color);  
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    grid-area: main;
+    font-size: 1.75rem;
+    width: 50rem;
+      
+}
+
+main h3{
+    text-align: center;
+    text-shadow: 0px 4px var(--hover-color);
+    border-bottom: 4px solid var(--black);
+}
+
+.punch-line{
+    text-transform: uppercase;
+}
+
+.center-text{
+  text-shadow: 1px 1px var(--secondary-color);
+}
+
+ol li{
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-shadow: 1px 0px var(--hover-color);   
+}
+
+footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-top: 1px solid var(--primary-color);
+    margin-top: 3rem;
+}
+.see-more{
+    font-size: 1.6rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding-top: 1.2rem;
+    padding-left: 2.8rem;
+    font-weight: 800;
+    text-shadow: 2px 0px var(--hover-color);
+}
+
+
+footer ul{
+ padding-inline-start: 0.5rem;
+ font-size: 1.6rem;
+    display: flex;
+  gap: 20px;
+
+} 
+
+footer h3{
+    color: var(--hover-color);
+    padding-inline-start: 2.0rem;
+}
+
+footer li{
+    font-size: 1.6rem;
+    list-style: none;
+}
+
+@media (max-width: 1536px){
+    html{
+      font-size: 100%;
+    }
+  
+    main{
+      width: 100%;
+    }
+  
+    
+  }
+  
+  
+  @media (max-width: 1280px){
+    html{
+      font-size: 85%;
+    }
+  
+   
+  
+    
+  }
+  
+  @media (max-width: 1024px){
+    html{
+      font-size: 80%;
+    }
+  
+   
+  
+    
+  }
+  
+  @media (max-width: 768px){
+    html{
+      font-size: 76%;
+    }
+  
+
+    
+  }
+  
+  @media (max-width: 640px){
+    html{
+      font-size: 72%;
+    }
+  
+ 
+  }
+  
+  @media (max-width: 480px){
+    html{
+      font-size: 65%;
+    }
+  
+    main{
+      width: 100%;
+      padding: 0.4rem;
+      margin: 0rem;
+    }
+  
+    .card{
+     width: 16rem;
+    }
+  
+    .card-content{
+      font-size: 1.2rem;
+     
+    }
+    nav ul{
+      padding: 0.12rem;
+      margin: auto;
+       }
+  }
