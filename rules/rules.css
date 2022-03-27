@@ -9,18 +9,14 @@ body{
     background-image: url("../images/blue-copy-space-digital-background_23-2148821698.webp");
     background-repeat: no-repeat;
     background-size: cover;
-   
-box-sizing: border-box;
-margin: 0px;
-padding: 0px;
-/* background-color: #e056fd;
-background-image: linear-gradient(315deg, #e056fd 0%, #000000 74%); */
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 
-
 * {
-
 --primary-color: #ecfeff ;
 --secondary-color : #67e8f9;
 --hover-color: #e056fd ;
@@ -51,19 +47,17 @@ nav{
     height: 16vw;
     grid-area: nav;
     
-
 }
 
 nav h2{
     position: relative;
-  
     font-size: 4rem;
     line-height: 1.2rem;
     letter-spacing: 0.125rem;
 }
 
 .imp-text{
-    font-family: 'Inter', sans-serif;
+ font-family: 'Inter', sans-serif;
 font-family: 'Mukta', sans-serif;
 font-family: 'Palette Mosaic', cursive;
 font-family: 'Redressed', cursive;
@@ -79,8 +73,8 @@ font-family: 'Shizuru', cursive;
 
 
 nav ul{
-    margin-left: auto; 
-    display: flex;
+  margin-left: auto; 
+  display: flex;
   gap: 15px;
   position: relative;
   top: 4rem;
@@ -89,7 +83,6 @@ nav ul{
 }
 
 nav li{
- 
     list-style: none;
     padding: 0.5rem;
     font-weight: bold;
@@ -99,14 +92,12 @@ nav li{
 }
 li a{
     text-decoration: none;
-    color: var(--primary-color);
-    
+    color: var(--primary-color);   
 }
 
 a:hover{
     color: var(--hover-color);
-    border-bottom: 1px solid var(--hover-color);
-  
+    border-bottom: 1px solid var(--hover-color);  
 }
 
 
@@ -119,10 +110,7 @@ main{
     grid-area: main;
     font-size: 1.75rem;
     width: 50rem;
-    
-   
- 
-   
+      
 }
 
 main h3{
@@ -137,18 +125,13 @@ main h3{
 
 .center-text{
   text-shadow: 1px 1px var(--secondary-color);
- 
-
-  
 }
 
 ol li{
     padding: 0.5rem;
     font-weight: bold;
     font-size: 1.6rem;
-    text-shadow: 1px 0px var(--hover-color);
-  
-    
+    text-shadow: 1px 0px var(--hover-color);   
 }
 
 footer{
@@ -160,12 +143,10 @@ footer{
     padding: 0.5rem;
     border-top: 1px solid var(--primary-color);
     margin-top: 3rem;
-      
-
 }
 .see-more{
     font-size: 1.6rem;
-text-align: center;
+    text-align: center;
     text-decoration: none;
     color: var(--secondary-color);
     padding-top: 1.2rem;
@@ -180,7 +161,6 @@ footer ul{
  font-size: 1.6rem;
     display: flex;
   gap: 20px;
-
 
 } 
 
